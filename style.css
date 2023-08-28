@@ -1,0 +1,9 @@
+/*definiciones de flexbox*/
+
+.container{
+    display: flex;
+}
+
+.item{
+    display: block;
+}
