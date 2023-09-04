@@ -7,12 +7,87 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-               <header>
+        <header class="header container">
+            <!--Aqui va el logo,nombre, barra de navegacion y acceso al carrito con contador de items-->
+            <nav class="header nav container">
+                <div class="nav logo container">
+                    <picture class="logo item">
+                    <a href="./Home.html">
+                    <img
+                    src="./img/branding/logo_light_horizontal.svg"
+                    alt="Logotipo branding funkoshop"
+                    />
+                    </a>
+                    </picture>
+                </div>
+
+                <div class="nav item">
+                    <a href="./Shop.html">SHOP</a>
+                    <button class="dropdown-item"><img src="" alt="" /></button>
+                </div>
+                <div class="nav item"><a href="">CONTACTO</a></div>
+                <div class="nav item"><a href="">LOGIN</a></div>
+                <div class="nav item">
+                    <a href="./Carrito.html">   
+                        <img src="./img/icons/cart-icon.svg" alt="icono de carrito"/>
+                    </a>
+                </div>
+            </nav>
+        </header> 
+
+        <main>
+            <nav class="shop nav container">
+                <ul>
+                    <li><h3>BUSCAR</h3></li>
+                    <li><input type="text" name="" id=""></li>
+                    <li><h3>ORDENAR POR</h3></li>
+                    <li><input type="text" name="" id=""></li>
+                    <li><h3>PRECIO</h3></li>
+                    <li><h4>MIN</h4><input type="number" name="" id=""><h4>- MAX</h4><input type="number" name="" id=""></li>
+                    <li>
+                        <h3>FILTRAR</h3>
+                        <ul class="links container">
+                            <li><input type="checkbox" name="nuevos" id="">NUEVOS</li>
+                            <li><input type="checkbox" name="ofertas" id="">OFERTAS</li>
+                            <li><input type="checkbox" name="edicion_especial" id="">EDICION ESPECIAL</li>
+                            <li><input type="checkbox" name="favoritos" id="">FAVORITOS</li>
+                        </ul>
+                    </li>
+                </ul>
                 
-               </header> 
+                
+                
+                
+                
+                
+            </nav>
+            <section class="shop container">
+
+            </section>
+        </main>
+
+        <footer class="footer container">
+            <!--Aqui van los datos del sitio-->
+            <section>
+                <nav>         
+                    <ul class="links container" style="list-style-type: none">
+                        <li><a href="" class="link item">SHOP</a></li>
+                        <li><a href="" class="link item">INGRESAR</a></li>
+                        <li><a href="" class="link item">CONTACTO</a></li>
+                    </ul>
+            
+                    <div class="logo container">
+                        <img src="" alt="" />
+                    </nav>
+            </section>
+            <section class="bottom-line container">
+                <p>All rights reserved 2023 - Funkoshop</p>
+            </section >
+        </footer>
+
         <script src="" async defer></script>
     </body>
 </html>
